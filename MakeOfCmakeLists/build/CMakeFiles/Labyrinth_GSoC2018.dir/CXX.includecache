@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lee/test/GSoC_2018_Labyrinth/Labyrinth.cpp
+iostream
+-
+fstream
+-
+Labyrinth.h
+/home/lee/test/GSoC_2018_Labyrinth/Labyrinth.h
+
+/home/lee/test/GSoC_2018_Labyrinth/Labyrinth.h
+vector
+-
+fstream
+-
+
+/home/lee/test/GSoC_2018_Labyrinth/main.cpp
+iostream
+-
+fstream
+-
+vector
+-
+Labyrinth.h
+/home/lee/test/GSoC_2018_Labyrinth/Labyrinth.h
+
